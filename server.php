@@ -1,6 +1,6 @@
 <?php 
 // connect to database
-$conn = mysqli_connect('localhost', 'root', 'root', 'duriandb');
+$conn = mysqli_connect('localhost', 'username', 'password', 'db_name');
 
 // lets assume a user is logged in with id $user_id
 $user_id = 13;
